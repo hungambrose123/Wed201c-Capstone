@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/jpg" href="images/8638395.jpg" alt="Kessoku" />
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <h1 id="portfolio">My Portfolio</h1>
+
+    <div id="description">
+      <h2>Hello, I'm Hung</h2>
+      <p>
+        I am second year Software engineering student at FPT university and i
+        have a thing for coding. <br />
+        Anyways, welcome to my portfolio
+      </p>
+    </div>
+
+    <div id="aboutMe">
+        <img src="images/full-stack-developers.png" alt="fullstack">
+        <img src="images/img-careers-developer@2x.jpg" alt="frog">
+    </div>
+
+    <div id="VietNam">
+      <h2>About me</h2>
+      <ul class="about">
+        <li><p>Second year Software Engineering student from Viet Nam</p></li>
+        <li><p>Aspire to be fullstack developer</p> </li>
+        <li><p>Coding is my hobby</p> </li>
+    </ul>
+    </div>
+
+    <div id="languages">
+      <h2>Programming languages i know</h2>
+      <ul>
+        <li><p>C</p></li>
+        <li><p>Java</p></li>
+        <li><p>Javascripts</p></li>
+        <li><p>Python</p></li>
+        <li><p>SQL Server</p></li>
+      </ul>
+    </div>
+
+    <div id="toLearn">
+        <h2>What i'm going to learn next</h2>
+        <ul>
+          <li><p>Node.js</p></li>
+          <li><p>React.js</p></li>
+          <li><p>MongoDB</p></li>
+          <li><p>And others that related to fullstack development !</p></li>
+        </ul>
+      </div>
+
+    <div id="end">
+      <h2>Hope you like my website</h2>
+      <p>
+        I don't have much experience yet but i will try to learn more as much as
+        possible !
+      </p>
+    </div>
+
+    <div id="question">
+        <h2>Anything you want to ask me ?</h2>
+        <form class="nameAndQuestion" action="ask" onsubmit="event.preventDefault();">
+            <label for="Name"><p>Your name: </p></label>
+            <input type="text" id="Name">
+            <label for="questionToAsk"><p>Your question: </p></label>
+            <input type="text" id="questionToAsk">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        <form class="more" action="more" onsubmit="event.preventDefault();">
+            <label for="favoriteAnimal"> <br> <h2>Extra !</h2> <p>What is your favorite animals ?</p></label>
+            <label for="cat">Cat</label>
+            <input type="checkbox" id="cat" name="cat" value="Cat">
+            <label for="dog">Dog</label>
+            <input type="checkbox" id="dog" name="dog" value="Dog">
+            <label for="crocodile">Crocodile</label>
+            <input type="checkbox" id="crocodile" name="crocodile" value="Crocodile">
+            <label for="horse">Horse</label>
+            <input type="checkbox" id="horse" name="horse" value="Horse">
+            <label for="bird">Bird</label>
+            <input type="checkbox" id="bird" name="bird" value="Bird">
+
+            <br>
+            <br>
+            <label for="other">Others:  </label>
+            <input type="text" id="other">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+
+  </body>
+</html>

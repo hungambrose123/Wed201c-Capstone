@@ -1,0 +1,118 @@
+body {
+  background-image: url("../images/leone-venter-VieM9BdZKFo-unsplash.jpg");
+  overflow: auto;
+}
+
+h1 {
+  color: #7c795d;
+  font-family: "Trocchi", serif;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+}
+
+h2 {
+  color: #7c795d;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+
+.subheader {
+  font-size: 26px;
+  font-weight: 300;
+  color: #ffcc66;
+  margin: 0 0 24px;
+}
+
+p {
+  color: #4c4a37;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0 0 24px;
+}
+
+a {
+  color: #ff9900;
+  background: #fff4a3;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffcc66;
+}
+
+
+@media screen and (min-width: 576px) {
+  h2{
+    text-align: center;
+    background-color: #7c795d;
+    color: #48dbfb;
+  }
+  p{
+    font-size: 180%;
+    text-align: left;
+  }
+  #portfolio {
+    background-color: #48dbfb;
+    text-align: center;
+  }
+  #description{
+    text-align: center;
+    margin: 2%;
+  }
+  #description h2{
+    font-size: 200%;
+  }
+  #aboutMe img{
+    display: inline-block;
+    margin-left: 7%;
+    width: 40%;
+    height: 350px;
+  }
+  #VietNam{
+    display: inline-block;
+    text-align: center;
+  }
+  #VietNam h2 {
+    margin-left: 2%;
+  }
+  #languages{
+    display: inline-block;
+    margin-left: 5%;
+  }   
+  #toLearn{
+    text-align: center;
+  }
+  #end{
+    text-align: center;
+  }
+  #end p{
+    text-align: center;
+  }
+  #question{
+    text-align: center;
+  }
+  #question p{
+    text-align: center;
+  }
+  #question form{
+    text-align: center;
+  }
+  .nameAndQuestion input{
+    width: 80%;
+    height: 50px;
+  }
+  .more label{
+    font-size: 150%;
+  }
+  .more input{
+    width: 100%;
+    height: 50px;
+  }
+}
+
